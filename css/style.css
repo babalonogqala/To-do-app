@@ -40,7 +40,8 @@ body {
   padding-bottom: 33px;
 }
 
-.to-do-input input {
+.to-do-input .gray1 {
+  color: white;
   background-color: hsl(235, 24%, 19%);
   padding: 15px 20px;
   width: 35%;
@@ -48,10 +49,24 @@ body {
   border-radius: 5px;
 }
 
-.to-do-input button {
+.to-do-input .gray2 {
   color: white;
   background-color: hsl(235, 24%, 19%);
   padding: 10px;
   border: none;
   border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.list-p {
+  color: white;
+  background: hsl(235, 24%, 19%);
+  padding: 0.7rem 14rem;
+  border-radius: 5px;
+  margin-top: 40px;
 }
